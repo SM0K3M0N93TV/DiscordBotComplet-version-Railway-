@@ -1,0 +1,14 @@
+
+[Unit]
+Description=Bot Discord Complet
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/chemin/vers/le/bot
+ExecStart=/usr/bin/node index.js
+Restart=always
+User=utilisateur
+
+[Install]
+WantedBy=multi-user.target

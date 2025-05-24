@@ -1,0 +1,17 @@
+
+{
+  "name": "discord-bot-complet",
+  "version": "1.0.0",
+  "description": "Bot Discord complet avec tickets, invites, modération, giveaways, live notifications.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.11.0",
+    "dotenv": "^16.3.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
